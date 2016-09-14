@@ -1,0 +1,77 @@
+body {
+  background-color: #95a5a6;
+  margin: 0; }
+
+.header {
+  background-color: #95a5a6; }
+
+.headline {
+  color: #2c3e50; }
+
+.subline {
+  color: #2c3e50; }
+
+.smoothie {
+  width: 10em; }
+  .smoothie:before {
+    content: '';
+    height: 100%;
+    width: 3em;
+    backgroud-color: rgba(255, 255, 255, 0.5); }
+  .smoothie-glas {
+    display: inline-block;
+    height: 150px;
+    color: transparent;
+    background-color: #ecf0f1;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 15px solid rgba(255, 255, 255, 0.5);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 0;
+    width: 100px;
+    margin: 20px;
+    margin-left: 100px;
+    white-space: normal;
+    position: relative; }
+  .smoothie-straw {
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    height: 115%;
+    width: 6px;
+    background: steelblue;
+    border-radius: 0 6px 0 0;
+    transform: rotate(-18.5deg);
+    transform-origin: left bottom;
+    -webkit-transform: rotate(-18.5deg);
+    -webkit-transform-origin: left bottom; }
+    .smoothie-straw:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 6px;
+      width: 65px;
+      background: inherit;
+      border-radius: 0 6px 0 0; }
+  .smoothie-ingredient {
+    width: 100%;
+    height: 33%;
+    margin: 0;
+    padding: 0; }
+    .smoothie-ingredient--banana {
+      background-color: yellow; }
+    .smoothie-ingredient--orange {
+      background-color: black; }
+    .smoothie-ingredient--kiwi {
+      background-color: green; }
+  .smoothie--green {
+    background-color: #27ae60; }
+  .smoothie--yellow {
+    background-color: #f1c40f; }
+  .smoothie--orange {
+    background-color: #d35400; }
+  .smoothie--red {
+    background-color: #e74c3c; }
+
+/*# sourceMappingURL=main.css.map */
